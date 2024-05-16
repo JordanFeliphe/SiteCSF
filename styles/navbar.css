@@ -6,7 +6,6 @@
     height: 100vh;
 
 }
-
 .button {
     position: relative;
     overflow: hidden;
@@ -19,7 +18,6 @@
     border: none;
     cursor: pointer;
 }
-
 .button:hover::before {
     transform: scaleX(1);
 }
@@ -28,7 +26,6 @@
     position: relative;
     z-index: 1;
 }
-
 .button::before {
     content: "";
     position: absolute;
