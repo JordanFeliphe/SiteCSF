@@ -1,0 +1,31 @@
+.container-text{
+    display: flex;
+    color:white;
+    align-items: center ;
+    width: 100%;
+    padding: 100px 0px 0px 60px;
+    justify-content: space-between;
+}
+
+.empresa{
+    color:#bb3434;
+}
+.autorizado{
+    color:#bb3434;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+p{
+    width: 100%;
+    font-size: 17px;
+    max-width: 700px;
+    margin-top: 10px;
+}
+
+.text{
+    z-index: -1;
+}

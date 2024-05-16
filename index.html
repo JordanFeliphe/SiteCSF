@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSF Digital - Soluções em Impressão</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/navico.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/container_text.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="/styles/section2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+
+<body>
+    <main class="container">
+        <section class="section1">
+            <div class="background">
+                <video loop autoplay muted>
+                    <source src="./assets/images/coverr-the-sensory-screen-on-the-printer-machine-4383-1080p.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+
+            <div class="cabecalho" data-aos="fade-right" data-aos-duration="2000">
+                <header>
+                    <img src="https://i.im.ge/2024/05/14/KMlB1F.logo-black.png" alt="logocsf">
+
+                    <ul class="navegacao" data-aos="fade-right" data-aos-duration="2000">
+                        <li>
+                            <a href="#" class="navegacao-link">Início</a>
+                        </li>
+                        <li>
+                            <a href="#" id="" class="navegacao-link">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navegacao-link">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navegacao-link">Contato</a>
+                        </li>
+                        <li>
+                            <a href="#" class="navegacao-link">Área do cliente</a>
+                        </li>
+                        <button class="button">
+                            <span class="button-content">Contratar</span>
+                        </button>
+                    </ul>
+                </header>
+                <div class="container-text">
+                    <div class="text">
+
+                        <h1 data-aos="fade-up" data-aos-duration="2000">Nós somos a <span class="empresa"> <b> CSF
+                                    Digital</b> </span></h1>
+                        <p data-aos="fade-up" data-aos-duration="3000"> Líder em Soluções de Impressão e Documentos
+                            Digitais, abrangendo tanto o mercado corporativo como governamental.
+                            Estamos presentes com técnicos residentes em todos os estados do Nordeste do Brasil,
+                            com contrato amplo de outsourcing no setor Bancário, sendo um dos maiores players deste
+                            segmento.
+                            Trabalhamos com os representantes autorizados: <span class="autorizado"> <b>Kyocera, Samsung
+                                    e
+                                    Xerox. </b></span></p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2000" class="imagem">
+
+                        <img src="https://i.im.ge/2024/05/15/KQyhMF.ai-generated-8411865-1280-removebg-preview.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section2" id="Sobre">
+                <div class="section2-container">
+                   
+                        <div class="text">
+                            <h1 data-aos="fade-up" data-aos-duration="2000">Nossas<span class="BoasImpresoes1"> Soluções</span></h1>
+                        </div>
+                    <div class="cards-container" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <i class="bi bi-cart3"></i>
+                            
+                        </div>
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <i class="bi bi-printer"></i>
+                        </div>
+                    </div>
+                </div>
+                  
+
+               
+                
+                
+        
+ 
+          
+
+
+
+
+
+
+
+            <div class="section2-images">
+
+
+
+            </div>
+        </section>
+
+        <section class="section3">
+            <div class="background2">
+
+            </div>
+        </section>
+
+
+        <section class="section4">
+            <div class="background2">
+
+            </div>
+        </section>
+    </main>
+    <script> AOS.init();
+        $(document).ready(function () {
+            $('.navegacao-link').click(function (e) {
+                e.preventDefault(); // Evite o comportamento padrão do link
+                var targetSection = $(this).attr('#Sobre'); // Obtenha o ID da seção alvo
+                $(targetSection)[0].scrollIntoView({
+                    behavior: 'smooth' // Rola suavemente para a seção
+                });
+            });
+        });
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
