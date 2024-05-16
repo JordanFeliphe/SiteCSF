@@ -12,6 +12,9 @@
 
 .BoasImpresoes1 {
     color: #bc3434;
+    font-size: 35px;
+    text-decoration: underline white;
+    
 }
 
 .section2-container {
@@ -76,6 +79,7 @@
 }
 
 .section2 h1 {
+    
     justify-content: center;
     align-items: center;
     color: white;
@@ -84,6 +88,7 @@
 }
 
 .section2 h2 {
+    
     justify-content: center;
     align-items: center;
     color: white;
@@ -101,5 +106,6 @@
 
 .section2 span {
     color: #bb3434;
-
+    
 }
+

@@ -17,6 +17,7 @@
 
 h1 {
     font-size: 50px;
+
 }
 
 p {
@@ -28,4 +29,7 @@ p {
 
 .text {
     z-index: -1;
+}
+.empresa{
+    text-decoration: underline whitesmoke;
 }

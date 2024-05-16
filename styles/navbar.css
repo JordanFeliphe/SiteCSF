@@ -12,7 +12,7 @@
     height: 3rem;
     padding: 0 1rem;
     border-radius: 1.5rem;
-    background: #727275;
+    background: #bb3434;
     background-size: 400%;
     color: #ffffff;
     border: none;
@@ -36,6 +36,7 @@
     width: 100%;
     height: inherit;
     border-radius: inherit;
-    background: linear-gradient(to right, #a03c44, #f12727);
+    background: linear-gradient(to right, #c0c0c0, #f12727);
     transition: all 0.475s;
 }
+
