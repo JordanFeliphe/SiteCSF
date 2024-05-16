@@ -29,6 +29,7 @@ header img {
     text-decoration: none;
     position: relative;
 }
+
 .navegacao-link:hover {
     color: #ff0303;
 }
@@ -44,6 +45,7 @@ header img {
     transform-origin: right;
     transition: transform 0.4s;
 }
+
 .navegacao-link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
