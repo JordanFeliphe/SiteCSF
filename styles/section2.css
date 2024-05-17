@@ -1,7 +1,7 @@
 .section2 {
     background-color: whitesmoke;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
 }
 
 .section2-container>.text {
@@ -11,10 +11,9 @@
 }
 
 .BoasImpresoes1 {
-    color: #bc3434;
-    font-size: 35px;
-    text-decoration: underline white;
-    
+    color: white;
+    font-size: 38px;
+
 }
 
 .section2-container {
@@ -35,21 +34,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 40px;
     margin-top: 0px;
-    padding: 0px 0px 0px 700px;
+    padding: 0px 0px 0px 750px;
 }
 
 .card {
     display: flex;
     box-sizing: border-box;
-    width: 130px;
-    height: 60px;
+    width: 150px;
+    height: 40px;
     background: rgb(255, 255, 255);
     border: 1px solid #000000;
     box-shadow: 10px 5px 20px;
     backdrop-filter: blur(6px);
-    border-radius: 180px;
+    border-radius: 50px;
     text-align: center;
     cursor: pointer;
     transition: all 0.5s;
@@ -65,9 +64,6 @@
     transform: scale(1.1);
 }
 
-.card:active {
-    transform: scale(10) rotateZ(1.7deg);
-}
 
 .section2 img {
     width: 120px;
@@ -79,21 +75,21 @@
 }
 
 .section2 h1 {
-    
+
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 35px;
-    padding: 150px 0px 0px 790px;
+    font-size: 38px;
+    padding: 150px 0px 0px 780px;
 }
 
 .section2 h2 {
-    
+
     justify-content: center;
     align-items: center;
-    color: rgb(189, 186, 186);
+    color: white;
     font-size: 16px;
-    padding: 60px 0px 35px 0px;
+    padding: 20px 0px 35px 0px;
 }
 
 .section2 img.printed {
@@ -105,7 +101,12 @@
 }
 
 .section2 span {
-    color: #bb3434;
+    color: white;
+    
     
 }
 
+span.Focada{
+    color: white;
+    text-decoration: underline  #bb3434;
+}

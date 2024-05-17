@@ -3,7 +3,7 @@ header {
     align-items: center;
     column-gap: 64px;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1700px;
     padding-top: 14px;
 
 }
@@ -18,7 +18,7 @@ header img {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 .navegacao-link {
     color: white;
@@ -31,7 +31,7 @@ header img {
 }
 
 .navegacao-link:hover {
-    color: #ff0303;
+    color: #bb3434;
 }
 .navegacao-link::after {
     content: '';
