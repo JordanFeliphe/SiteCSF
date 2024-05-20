@@ -1,7 +1,12 @@
+
+
+
+
 .section2 {
     background-color: whitesmoke;
     width: 100%;
     height: 100vh;
+    font-family: "Poppins", sans-serif;
 }
 
 .section2-container>.text {
@@ -36,7 +41,7 @@
     align-items: center;
     gap: 40px;
     margin-top: 0px;
-    padding: 0px 0px 0px 750px;
+    padding: 40px 0px 0px 750px;
 }
 
 .card {
@@ -75,40 +80,35 @@
 }
 
 .section2 h1 {
-
+    
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 38px;
-    padding: 150px 0px 0px 780px;
+    padding: 100px 0px 0px 790px;
 }
 
-.section2 h2 {
-
+.section2 p {
+    text-align: justify;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 16px;
-    padding: 20px 0px 35px 0px;
+    font-size: 15px;
+    padding: 20px 0px 35px 10px;
 }
 
 .section2 img.printed {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(50%);
+    filter: brightness(30%);
     position: absolute;
 }
 
-.section2 span {
+.text2 p{
     color: white;
-    
-    
+    font-size: 16px;
+    max-width: 1500px;
+    padding: 10px 0px 0px 790px;
 }
 
-span.Focada{
-    color: white;
-    
-
-}
 
