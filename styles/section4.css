@@ -75,7 +75,7 @@
 
 .card_box4 {
   width: 250px;
-  height: 250px;
+  height: 200px;
   border-radius: 20px;
   background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
   position: relative;
@@ -131,7 +131,7 @@
 
 .card_box5 {
   width: 250px;
-  height: 250px;
+  height: 200px;
   border-radius: 20px;
   background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
   position: relative;
@@ -186,7 +186,7 @@
 }
 .card_box6 {
   width: 250px;
-  height: 250px;
+  height: 200px;
   border-radius: 20px;
   background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
   position: relative;
@@ -245,7 +245,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  margin-left:70px ;
+  margin-left:80px ;
   
 }
 .card_box5 span h1{ 
@@ -253,7 +253,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  margin-left:70px ;
+  margin-left:80px ;
   
 }
 .card_box6 span h1{ 
@@ -261,6 +261,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  margin-left:70px ;
+  margin-left:80px ;
   
 }

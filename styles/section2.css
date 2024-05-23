@@ -77,7 +77,7 @@
 }
 
 .section2 h1 {
-
+    text-decoration: underline #bb3434 ;
     justify-content: center;
     align-items: center;
     color: white;
