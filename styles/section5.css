@@ -1,0 +1,119 @@
+
+.card-container5{
+  grid-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  width: auto;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -150px;
+}
+
+
+.section5 img {
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    filter: brightness(20%);
+}
+
+.Titulo1{
+    color: white;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 0px 600px;
+    text-decoration: underline #bb3434;
+  }
+
+  .card-title {
+    color: #262626;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #452c2c;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: linear-gradient(135deg, #bb3434, #343435);
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .card5 {
+    
+    display: block;
+    position: relative;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: #f2f8f9;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ffffff, #989a9b);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card5:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #bb3434, #252525);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .card5:hover:before {
+    transform: scale(36);
+  }
+  
+  .card5:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: white;
+  }
+  
+  .card5:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  
+ 
