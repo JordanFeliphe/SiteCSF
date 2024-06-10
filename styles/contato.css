@@ -1,0 +1,167 @@
+body{
+    overflow: hidden;
+}
+.teste{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20px;
+    gap: 20px;
+    margin-top: 30px;
+  
+   
+}
+.teste2{
+    display: flex;
+    height: 80vh;
+    width: 70vw;
+    gap: 10px;
+    margin-left: 50px;
+    
+}
+.teste3{
+  
+    display: flex;
+    height:65vh;
+    width: 35vw;
+    background: rgb(61, 196, 79);
+    margin-top: 55px;
+    border-radius: 50%;
+    margin-right: 30px;
+    overflow: hidden;
+    
+}
+
+.video{
+   
+    position: absolute;
+    object-fit: cover;
+    
+}
+
+.frameslz{
+    display: flex;
+    margin-top: 63px;
+    margin-left: -39px;
+    width: 435px;
+    height: 150px;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+    filter: brightness(80%);
+    
+}
+.framefor{
+    display: flex;
+    margin-top: 87px;
+    margin-left: -39px;
+    width: 435px;
+    height: 150px;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+    filter: brightness(80%);
+    
+}
+.SLZ{
+    border: 1px solid #696767;
+    padding: 20px 0px 0px 45px;
+    height: 450px;
+    width: 450px;
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 5%;
+   
+}
+.FOR{
+    border: 1px solid #696767;;
+    padding: 20px 0px 0px 45px;
+    height: 450px;
+    width: 450px;
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 5%;
+}
+
+h2{
+   
+    text-decoration: underline #bb3434;
+}
+
+.CSF{
+    padding: 0px 0px 20px 0px;
+    margin-left: -20px;
+    color: whitesmoke;
+}
+.atendimento{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height:auto;
+    filter: brightness(30%);
+}
+i{
+margin-left: -10px;
+   font-size: 25px;
+   display: flex;
+   color: #bb3434;
+   padding: 10px;
+  
+  
+}
+
+
+h4{
+    
+    align-items: center;
+    display: flex;
+    color: whitesmoke;
+    padding: 0px 0px 0px -10px;
+    margin-top: -30px
+}
+
+.icons{
+    display: flex;
+    padding: 0px 0px 0px 40px;
+    margin-top: -30px;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: justify;
+   
+}
+
+.phone{
+    margin-left: -30px;
+}
+
+.mail{
+    margin-left: -30px;
+}
+
+.comercial{
+    display: flex;
+    padding: 0px 0px 0px 70px;
+    margin-top: -35px;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: -30px;
+    text-align: justify;
+}
+
+.localizacao{
+    display: flex;
+    padding: 0px 0px 0px 70px;
+    margin-top: -35px;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: -30px;   
+    text-align: justify;
+
+}
+
+.location{
+    margin-left: -30px;
+}

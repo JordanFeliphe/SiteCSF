@@ -1,16 +1,15 @@
 header {
     display: flex;
     align-items: center;
-    column-gap: 40px;
-    width: 100%;
-    max-width: 1700px;
-    padding-top: 14px;
+    width: 100vw;
+    max-width: 3000px;
+    padding-top: 15px;
     
 
 }
 
 header img {
-    margin-left: 65px;
+    margin-left: 55px;
     width: 200px;
     height: auto;
 }
@@ -19,7 +18,7 @@ header img {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: 450px;
+    margin-left: 430px;
 }
 .navegacao-link {
     color: white;
