@@ -140,3 +140,143 @@
     }
   }
 }
+@media screen and (max-width: 1680px) {
+  header img {
+    margin-left: 59px;
+    width: 200px;
+    height: auto;
+  }
+
+  .navegacao {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 600px;
+  }
+  .SLZ {
+    border: 1px solid #696767;
+    padding: 20px 0px 0px 45px;
+    height: 570px;
+    width: 450px;
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 5%;
+  }
+  .FOR {
+    border: 1px solid #696767;
+    padding: 20px 0px 0px 45px;
+    height: 570px;
+    width: 450px;
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 5%;
+  }
+  .framefor {
+    display: flex;
+    margin-top: 50px;
+    margin-left: -39px;
+    width: 435px;
+    height: 298px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    filter: brightness(80%);
+  }
+  .frameslz {
+    display: flex;
+    margin-top: 30px;
+    margin-left: -39px;
+    width: 435px;
+    height: 297px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    filter: brightness(80%);
+  }
+  .teste2 {
+    display: flex;
+    height: 80vh;
+    width: 70vw;
+    gap: 70px;
+    margin-left: 50px;
+  }
+  .teste3 {
+    display: flex;
+    height: 50vh;
+    width: 35vw;
+    background: rgb(61, 196, 79);
+    margin-top: 55px;
+    border-radius: 50%;
+    margin-right: 130px;
+    overflow: hidden;
+  }
+  /*TELA 1550 CONTATO*/
+
+  @media screen and (max-width: 1550px) {
+    header img {
+      margin-left: 55px;
+      width: 200px;
+      height: auto;
+    }
+
+    .navegacao {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-left: 430px;
+    }
+    .SLZ {
+      border: 1px solid #696767;
+      padding: 20px 0px 0px 45px;
+      height: 400px;
+      width: 450px;
+      margin-top: 50px;
+      background-color: transparent;
+      border-radius: 5%;
+    }
+    .FOR {
+      border: 1px solid #696767;
+      padding: 20px 0px 0px 45px;
+      height: 450px;
+      width: 450px;
+      margin-top: 50px;
+      background-color: transparent;
+      border-radius: 5%;
+    }
+    .frameslz {
+      display: flex;
+      margin-top: 63px;
+      margin-left: -39px;
+      width: 435px;
+      height: 150px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      filter: brightness(80%);
+    }
+    .framefor {
+      display: flex;
+      margin-top: 87px;
+      margin-left: -39px;
+      width: 435px;
+      height: 150px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      filter: brightness(80%);
+    }
+    .teste2 {
+      display: flex;
+      height: 80vh;
+      width: 70vw;
+      gap: 10px;
+      margin-left: 50px;
+    }
+    .teste3 {
+      display: flex;
+      height: 65vh;
+      width: 35vw;
+      background: rgb(61, 196, 79);
+      margin-top: 55px;
+      border-radius: 50%;
+      margin-right: 30px;
+      overflow: hidden;
+    }
+  }
+}

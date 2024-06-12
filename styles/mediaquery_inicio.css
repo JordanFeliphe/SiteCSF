@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: 810px;
+    margin-left: 650px;
   }
   .container-text {
     display: flex;
@@ -191,6 +191,206 @@
     margin-top: 100px;
     margin-left: 80px;
   }
+}
+/*TELA 1680 INICIO*/
+@media screen and (max-width: 1680px) {
+  header img {
+      margin-left: 65px;
+      width: 200px;
+      height: auto;
+  }
+  .navegacao {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-left:550px;
+  }
+  .container-text {
+      display: flex;
+      color: white;
+      align-items: center;
+      width: 100%;
+      padding: 100px 0px 0px 60px;
+      justify-content: space-between;
+  }
+  h1 {
+      font-size: 60px;
+  
+  }
+
+  p {
+      text-align: justify;
+      width: 100%;
+      font-size: 19px;
+      max-width: 800px;
+      margin-top: 10px;
+  }
+  .section2 h1 {
+      text-decoration: underline #bb3434 ;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 38px;
+      padding: 100px 0px 0px 870px;
+  }
+  .text2 p {
+      color: white;
+      font-size: 16px;
+      max-width: 1600px;
+      padding: 10px 0px 0px 850px;
+  }
+  
+  .card {
+
+      display: flex;
+      box-sizing: border-box;
+      width: 180px;
+      height: 80px;
+      background:  #222121;
+      border: 1px solid #000000;
+      box-shadow: 10px 5px 20px;
+      backdrop-filter: blur(6px);
+      border-radius: 50px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.5s;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      font-weight: bolder;
+      color: black;
+  }
+  
+  .cards-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-top: 0px;
+      padding: 40px 0px 100px 700px;
+  }
+  .card-container3 {
+      display: flex;
+      flex-direction: row;
+      padding: 100px 20px 0px 60px;
+    }
+    .card-section3 {
+      margin-left: 70px;
+      position: relative;
+      width: 290px;
+      height: 140px;
+      background-color: #222121;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      perspective: 1000px;
+      transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    
+    .card__description {
+      margin: 0px 0 0;
+      font-size: 13px;
+      color: #777;
+      line-height: 1.4;
+    }
+    .section4-container p{
+      width: 100%;
+      height: 100%;
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      display: flex;
+      text-align: justify;
+      max-width:1550px;
+      padding: 150px 0px 0px 100px;
+    }
+  .container-card{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 40px;
+padding: 200px 0px 100px 500px;
+
+}
+  .card_box4 {
+    width: 290px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(
+      170deg,
+      rgba(58, 56, 56, 0.623) 0%,
+      rgb(31, 31, 31) 100%
+    );
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .card_box5 {
+    width: 290px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(
+      170deg,
+      rgba(58, 56, 56, 0.623) 0%,
+      rgb(31, 31, 31) 100%
+    );
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .card_box6 {
+    width: 290px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(
+      170deg,
+      rgba(58, 56, 56, 0.623) 0%,
+      rgb(31, 31, 31) 100%
+    );
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .card_box5 span {
+    position: absolute;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card_box4 span h1 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 120px;
+  }
+  .card_box5 span h1 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 120px;
+  }
+  .card_box6 span h1 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+
+  
 }
 
 /*TELA 1920 INICIO*/
